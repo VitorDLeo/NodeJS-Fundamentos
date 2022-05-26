@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/VitorDLeo/NodeJS-Fundamentos.git",
   "author": "VitorDLeo <vitordileo003@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
