@@ -1,0 +1,8 @@
+{
+  "name": "NodeJS-Fundamentos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VitorDLeo/NodeJS-Fundamentos.git",
+  "author": "VitorDLeo <vitordileo003@gmail.com>",
+  "license": "MIT"
+}
