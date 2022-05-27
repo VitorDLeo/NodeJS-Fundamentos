@@ -4,6 +4,8 @@ const { send } = require("express/lib/response");
 
 const app = express();
 
+app.use(express.json());
+
 // Porta
 app.listen(3333);
 
@@ -20,7 +22,7 @@ app.get("/courses", (request, response) => {
 });
 
 app.post("/courses", (request, response) => {
-    const body = 
+    const body = request.body
     return response.json(["Curso1", "Curso2", "Curso3", "Curso4"]);
 });
 
